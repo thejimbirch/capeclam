@@ -1,0 +1,155 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+ html {
+  background: transparent url(the-pearl-june-2019-1920.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'DM Sans', sans-serif;
+  height: 100%;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.6);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+  color: #fff;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'DM Sans', sans-serif;
+  height: 100%;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+/*
+ * Header
+ */
+.masthead {
+  margin-bottom: 2rem;
+}
+
+.masthead-brand {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+@media (max-width: 48em) {
+  .nav-masthead {
+    justify-content: center;
+  }
+}
+
+/*
+ * Cover
+ */
+.cover {
+  padding: 0 1.5rem;
+}
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+
+
+/*
+ * Footer
+ */
+.mastfoot {
+  color: rgba(255, 255, 255, .5);
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.card-text {
+  color: #111;
+  text-shadow: none;
+}
+
+.zoom {
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.transition {
+  -webkit-transform: scale(1.17);
+  -moz-transform: scale(1.17);
+  -o-transform: scale(1.17);
+  transform: scale(1.17);
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-title {
+  color: #000;
+}
+
+.modal-footer {
+  display: none;
+}
